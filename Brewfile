@@ -36,7 +36,7 @@ brew "starship"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Best command-line tool to install and switch between multiple versions of Xcode
+# Command-line tool to install and switch between multiple versions of Xcode
 brew "xcodes"
 # Flexible and fast Zsh plugin manager
 brew "zinit"
@@ -98,6 +98,7 @@ vscode "iliazeus.vscode-ansi"
 vscode "ivhernandez.vscode-plist"
 vscode "jnoronha.toolsforvscode"
 vscode "jock.svg"
+vscode "kamikillerto.vscode-colorize"
 vscode "marus25.cortex-debug"
 vscode "mcu-debug.debug-tracker-vscode"
 vscode "mcu-debug.memory-view"
