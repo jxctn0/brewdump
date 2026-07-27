@@ -1,23 +1,45 @@
 # ACME client
 brew "acme.sh"
+# Library for manipulating PNG images
+brew "libpng"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Music library manager and tagger
+brew "beets"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Object-file caching compiler wrapper
+brew "ccache"
+# Cross-platform make
+brew "cmake"
+# Perl lib for reading and writing EXIF metadata
+brew "exiftool"
 # Modern, maintained replacement for ls
 brew "eza"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Play, record, convert, and stream many audio and video codecs
+brew "ffmpeg-full"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Google Testing and Mocking Framework
+brew "googletest"
+# Tool to unpack installers created by Inno Setup
+brew "innoextract"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Pager program similar to more
 brew "less"
+# C library for reading, creating, and modifying zip archives
+brew "libzip"
 # Mac App Store command-line interface
 brew "mas"
 # Modern and intuitive terminal-based text editor
@@ -26,8 +48,12 @@ brew "micro"
 brew "mkcert"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
+# Small build system for use with gyp or CMake
+brew "ninja"
+# Implementation of the OpenAL 3D audio API
+brew "openal-soft"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -36,6 +62,8 @@ brew "starship"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Internet file retriever
+brew "wget"
 # Command-line tool to install and switch between multiple versions of Xcode
 brew "xcodes"
 # Flexible and fast Zsh plugin manager
@@ -60,6 +88,8 @@ cask "ik-product-manager"
 cask "itch"
 # Media system
 cask "jellyfin"
+# Audio tagger focusing on efficiency
+cask "kid3"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Knowledge base that works on top of a local folder of plain text Markdown files
