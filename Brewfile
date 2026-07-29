@@ -30,8 +30,12 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Google Testing and Mocking Framework
 brew "googletest"
+# Improved top (interactive process viewer)
+brew "htop"
 # Tool to unpack installers created by Inno Setup
 brew "innoextract"
 # Simple terminal UI for git commands
@@ -78,6 +82,8 @@ cask "beeper"
 cask "bettertouchtool"
 # Voice and text chat software
 cask "discord"
+# Cross-platform Text Expander written in Rust
+cask "espanso"
 # Free and open-source image editor
 cask "gimp"
 # Utility to hide menu bar items
@@ -180,3 +186,4 @@ vscode "waseemakram.jinja-snippets-flask"
 vscode "yarimit.vscode-charcode-ext"
 vscode "yzhang.markdown-all-in-one"
 vscode "zeshuaro.vscode-python-poetry"
+go "mvdan.cc/sh/v3/cmd/shfmt"
