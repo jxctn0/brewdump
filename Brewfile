@@ -76,6 +76,8 @@ brew "zinit"
 brew "zoxide"
 # AI Coding Agent IDE
 cask "antigravity-ide"
+# Electronics prototyping platform
+cask "arduino-ide"
 # Universal chat app powered by Matrix
 cask "beeper"
 # Tool to customise input devices and automate computer systems
