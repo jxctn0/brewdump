@@ -2,12 +2,20 @@
 brew "acme.sh"
 # Library for manipulating PNG images
 brew "libpng"
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# GNU compiler collection
+brew "gcc"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
 # Music library manager and tagger
 brew "beets"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
 # Object-file caching compiler wrapper
 brew "ccache"
 # Cross-platform make
@@ -46,6 +54,10 @@ brew "innoextract"
 brew "lazygit"
 # Pager program similar to more
 brew "less"
+# Cryptographic library based on the code from GnuPG
+brew "libgcrypt"
+# Generic library support script
+brew "libtool"
 # C library for reading, creating, and modifying zip archives
 brew "libzip"
 # Mac App Store command-line interface
@@ -60,6 +72,8 @@ brew "nano"
 brew "ninja"
 # Implementation of the OpenAL 3D audio API
 brew "openal-soft"
+# Libosmium-based command-line tool for processing OpenStreetMap data
+brew "osmium-tool"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # Search tool like grep and The Silver Searcher
@@ -104,21 +118,33 @@ cask "jellyfin"
 cask "kid3"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Music tagger
+cask "musicbrainz-picard"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Open-source design editor compatible with Figma
 cask "openpencil"
+# VPN client focusing on security
+cask "protonvpn"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Run Apple apps on incompatible OS versions
+cask "retroactive"
+# Tool that provides consistent, highly configurable symbols for apps
+cask "sf-symbols"
 # Software installer and device manager for Universal Audio products
 cask "ua-connect"
 # Open-source code editor
 cask "visual-studio-code"
 # Install and switch between multiple versions of Xcode
 cask "xcodes-app"
+mas "Infuse", id: 1136220934
 mas "Logic Pro", id: 634148309
 mas "Tailscale", id: 1475387142
 vscode "2kabhishek.nerdy-vscode"
 vscode "aaron-bond.better-comments"
 vscode "arturock.unix-file-stats"
+vscode "azharuddinsyed.python-sql"
 vscode "christian-kohler.npm-intellisense"
 vscode "christian-kohler.path-intellisense"
 vscode "ctc.vscode-tree-extension"
@@ -137,6 +163,7 @@ vscode "hudadamar21.elegant-red"
 vscode "idleberg.applescript"
 vscode "igorsbitnev.error-gutters"
 vscode "iliazeus.vscode-ansi"
+vscode "inferrinizzard.prettier-sql-vscode"
 vscode "ivhernandez.vscode-plist"
 vscode "jnoronha.toolsforvscode"
 vscode "jock.svg"
@@ -187,4 +214,3 @@ vscode "twxs.cmake"
 vscode "waseemakram.jinja-snippets-flask"
 vscode "yzhang.markdown-all-in-one"
 vscode "zeshuaro.vscode-python-poetry"
-go "mvdan.cc/sh/v3/cmd/shfmt"
