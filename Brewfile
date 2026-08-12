@@ -80,6 +80,8 @@ brew "pkgconf"
 brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Powerful free data recovery utility
+brew "testdisk"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
