@@ -1,3 +1,4 @@
+tap "sikarugir-app/sikarugir", "https://github.com/Sikarugir-App/homebrew-sikarugir", trusted: true
 # ACME client
 brew "acme.sh"
 # Library for manipulating PNG images
@@ -72,6 +73,8 @@ brew "nano"
 brew "ninja"
 # Implementation of the OpenAL 3D audio API
 brew "openal-soft"
+# Development kit for the Java programming language
+brew "openjdk"
 # Libosmium-based command-line tool for processing OpenStreetMap data
 brew "osmium-tool"
 # Package compiler and linker metadata toolkit
@@ -80,6 +83,8 @@ brew "pkgconf"
 brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale"
 # Powerful free data recovery utility
 brew "testdisk"
 # Terminal multiplexer
@@ -134,13 +139,14 @@ cask "raycast"
 cask "retroactive"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
+# Porting tool, to make Windows programs/games into native apps
+cask "sikarugir-app/sikarugir/sikarugir", trusted: true
 # Software installer and device manager for Universal Audio products
 cask "ua-connect"
 # Open-source code editor
 cask "visual-studio-code"
 # Install and switch between multiple versions of Xcode
 cask "xcodes-app"
-mas "Infuse", id: 1136220934
 mas "Logic Pro", id: 634148309
 mas "Tailscale", id: 1475387142
 vscode "2kabhishek.nerdy-vscode"
@@ -167,6 +173,7 @@ vscode "igorsbitnev.error-gutters"
 vscode "iliazeus.vscode-ansi"
 vscode "inferrinizzard.prettier-sql-vscode"
 vscode "ivhernandez.vscode-plist"
+vscode "jeff-hykin.better-shellscript-syntax"
 vscode "jnoronha.toolsforvscode"
 vscode "jock.svg"
 vscode "kamikillerto.vscode-colorize"
@@ -176,6 +183,7 @@ vscode "mcu-debug.debug-tracker-vscode"
 vscode "mcu-debug.memory-view"
 vscode "mcu-debug.peripheral-viewer"
 vscode "mcu-debug.rtos-views"
+vscode "miramac.vscode-exec-node"
 vscode "mohammadbaqer.better-folding"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.autopep8"
@@ -193,18 +201,22 @@ vscode "ms-vscode.cmake-tools"
 vscode "ms-vscode.cpptools"
 vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.js-debug-nightly"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-server"
 vscode "ms-vscode.vscode-serial-monitor"
+vscode "ms-vscode.vscode-typescript-next"
 vscode "nico-castell.linux-desktop-file"
 vscode "nodesource.vscode-for-node-js-development-pack"
 vscode "oderwat.indent-rainbow"
+vscode "oracle.oracle-java"
 vscode "paulober.pico-w-go"
 vscode "phoenisx.cssvar"
 vscode "piousdeer.adwaita-theme"
 vscode "pkief.material-icon-theme"
 vscode "platformio.platformio-ide"
 vscode "raspberry-pi.raspberry-pi-pico"
+vscode "redhat.java"
 vscode "redhat.vscode-xml"
 vscode "rootedbox.iterm-integration"
 vscode "samuelcolvin.jinjahtml"
@@ -212,7 +224,16 @@ vscode "sandcastle.whitespace"
 vscode "sidp.strict-whitespace"
 vscode "tamasfe.even-better-toml"
 vscode "techer.open-in-browser"
+vscode "thinker.sort-json"
+vscode "tooark.ark-format-shell"
 vscode "twxs.cmake"
+vscode "typescriptteam.native-preview"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
 vscode "waseemakram.jinja-snippets-flask"
 vscode "yzhang.markdown-all-in-one"
 vscode "zeshuaro.vscode-python-poetry"
