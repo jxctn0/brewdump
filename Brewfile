@@ -1,16 +1,20 @@
 tap "sikarugir-app/sikarugir", "https://github.com/Sikarugir-App/homebrew-sikarugir", trusted: true
 # ACME client
 brew "acme.sh"
+# Arduino command-line interface
+brew "arduino-cli"
+# Password hashing library and CLI utility
+brew "argon2"
 # Library for manipulating PNG images
 brew "libpng"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
 # GNU compiler collection
 brew "gcc"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Music library manager and tagger
 brew "beets"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
@@ -21,6 +25,14 @@ brew "gettext"
 brew "ccache"
 # Cross-platform make
 brew "cmake"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima", restart_service: :changed
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Create Docker hosts locally and on cloud providers
+brew "docker-machine"
 # ESP8266 and ESP32 serial bootloader utility
 brew "esptool"
 # Perl lib for reading and writing EXIF metadata
@@ -43,6 +55,8 @@ brew "gh"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Google Testing and Mocking Framework
 brew "googletest"
 # Improved top (interactive process viewer)
@@ -63,24 +77,28 @@ brew "libtool"
 brew "libzip"
 # Mac App Store command-line interface
 brew "mas"
+# Control and observe media playback from the command-line
+brew "media-control"
+# Small build system for use with gyp or CMake
+brew "ninja"
 # Modern and intuitive terminal-based text editor
 brew "micro"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Small build system for use with gyp or CMake
-brew "ninja"
 # Implementation of the OpenAL 3D audio API
 brew "openal-soft"
 # Development kit for the Java programming language
 brew "openjdk"
 # Libosmium-based command-line tool for processing OpenStreetMap data
 brew "osmium-tool"
-# Package compiler and linker metadata toolkit
-brew "pkgconf"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Utility that provides fast incremental file transfer
+brew "rsync"
+# Display and control your Android device
+brew "scrcpy"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Easiest, most secure way to use WireGuard and 2FA
@@ -99,6 +117,8 @@ brew "xcodes"
 brew "zinit"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Android SDK component
+cask "android-platform-tools"
 # AI Coding Agent IDE
 cask "antigravity-ide"
 # Electronics prototyping platform
@@ -107,10 +127,16 @@ cask "arduino-ide"
 cask "beeper"
 # Tool to customise input devices and automate computer systems
 cask "bettertouchtool"
+# Desktop password and login vault
+cask "bitwarden"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Cross-platform Text Expander written in Rust
 cask "espanso"
+# Privacy-focused Firefox-based browser
+cask "floorp"
 # Free and open-source image editor
 cask "gimp"
 # Utility to hide menu bar items
@@ -131,31 +157,31 @@ cask "musicbrainz-picard"
 cask "obsidian"
 # Open-source design editor compatible with Figma
 cask "openpencil"
+# File system integration
+cask "osxfuse"
 # VPN client focusing on security
 cask "protonvpn"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Run Apple apps on incompatible OS versions
 cask "retroactive"
+# GUI for rsync
+cask "rsyncui"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # Porting tool, to make Windows programs/games into native apps
 cask "sikarugir-app/sikarugir/sikarugir", trusted: true
 # Software installer and device manager for Universal Audio products
 cask "ua-connect"
-# Open-source code editor
-cask "visual-studio-code"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
 # Install and switch between multiple versions of Xcode
 cask "xcodes-app"
 mas "Logic Pro", id: 634148309
 mas "Tailscale", id: 1475387142
-vscode "2kabhishek.nerdy-vscode"
 vscode "aaron-bond.better-comments"
-vscode "arturock.unix-file-stats"
-vscode "azharuddinsyed.python-sql"
 vscode "christian-kohler.npm-intellisense"
 vscode "christian-kohler.path-intellisense"
-vscode "ctc.vscode-tree-extension"
 vscode "cweijan.vscode-office"
 vscode "dart-code.dart-code"
 vscode "dart-code.flutter"
@@ -164,17 +190,11 @@ vscode "esbenp.prettier-vscode"
 vscode "foxundermoon.shell-format"
 vscode "github.github-vscode-theme"
 vscode "github.vscode-pull-request-github"
+vscode "graphql.vscode-graphql-syntax"
 vscode "gruntfuggly.todo-tree"
-vscode "hellbill.simple-dark-red-white-theme-sample"
-vscode "hqjs.hq-live-server"
-vscode "hudadamar21.elegant-red"
 vscode "idleberg.applescript"
-vscode "igorsbitnev.error-gutters"
 vscode "iliazeus.vscode-ansi"
-vscode "inferrinizzard.prettier-sql-vscode"
-vscode "ivhernandez.vscode-plist"
 vscode "jeff-hykin.better-shellscript-syntax"
-vscode "jnoronha.toolsforvscode"
 vscode "jock.svg"
 vscode "kamikillerto.vscode-colorize"
 vscode "kevinrose.vsc-python-indent"
@@ -183,7 +203,6 @@ vscode "mcu-debug.debug-tracker-vscode"
 vscode "mcu-debug.memory-view"
 vscode "mcu-debug.peripheral-viewer"
 vscode "mcu-debug.rtos-views"
-vscode "miramac.vscode-exec-node"
 vscode "mohammadbaqer.better-folding"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.autopep8"
@@ -191,49 +210,29 @@ vscode "ms-python.black-formatter"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
 vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode-remote.remote-wsl"
-vscode "ms-vscode-remote.remote-wsl-recommender"
 vscode "ms-vscode.cmake-tools"
-vscode "ms-vscode.cpptools"
-vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
-vscode "ms-vscode.js-debug-nightly"
-vscode "ms-vscode.remote-explorer"
-vscode "ms-vscode.remote-server"
-vscode "ms-vscode.vscode-serial-monitor"
 vscode "ms-vscode.vscode-typescript-next"
 vscode "nico-castell.linux-desktop-file"
-vscode "nodesource.vscode-for-node-js-development-pack"
 vscode "oderwat.indent-rainbow"
 vscode "oracle.oracle-java"
 vscode "paulober.pico-w-go"
 vscode "phoenisx.cssvar"
 vscode "piousdeer.adwaita-theme"
 vscode "pkief.material-icon-theme"
-vscode "platformio.platformio-ide"
 vscode "raspberry-pi.raspberry-pi-pico"
 vscode "redhat.java"
 vscode "redhat.vscode-xml"
-vscode "rootedbox.iterm-integration"
 vscode "samuelcolvin.jinjahtml"
-vscode "sandcastle.whitespace"
-vscode "sidp.strict-whitespace"
 vscode "tamasfe.even-better-toml"
 vscode "techer.open-in-browser"
-vscode "thinker.sort-json"
 vscode "tooark.ark-format-shell"
 vscode "twxs.cmake"
-vscode "typescriptteam.native-preview"
 vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-maven"
-vscode "waseemakram.jinja-snippets-flask"
 vscode "yzhang.markdown-all-in-one"
-vscode "zeshuaro.vscode-python-poetry"
