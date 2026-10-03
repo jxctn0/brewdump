@@ -7,6 +7,8 @@ brew "arduino-cli"
 brew "argon2"
 # Library for manipulating PNG images
 brew "libpng"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
 # Automatic configure script builder
@@ -19,8 +21,6 @@ brew "gcc"
 brew "beets"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
-# GNU internationalization (i18n) and localization (l10n) library
-brew "gettext"
 # Object-file caching compiler wrapper
 brew "ccache"
 # Cross-platform make
@@ -65,6 +65,8 @@ brew "htop"
 brew "http-server"
 # Tool to unpack installers created by Inno Setup
 brew "innoextract"
+# Audio Connection Kit
+brew "jack", restart_service: :changed
 # Simple terminal UI for git commands
 brew "lazygit"
 # Pager program similar to more
