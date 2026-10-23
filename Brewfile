@@ -85,6 +85,8 @@ brew "media-control"
 brew "ninja"
 # Modern and intuitive terminal-based text editor
 brew "micro"
+# Mac command-line tool that automatically downloads macOS Firmwares / Installers
+brew "mist-cli"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Free (GNU) replacement for the Pico text editor
@@ -153,6 +155,8 @@ cask "jellyfin"
 cask "kid3"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Utility that automatically downloads firmwares and installers
+cask "mist"
 # Music tagger
 cask "musicbrainz-picard"
 # Knowledge base that works on top of a local folder of plain text Markdown files
