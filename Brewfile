@@ -161,12 +161,12 @@ cask "mist"
 cask "musicbrainz-picard"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Local-first alternative to Logitech Options+ for HID++ devices
+cask "openlogi"
 # Open-source design editor compatible with Figma
 cask "openpencil"
 # File system integration
 cask "osxfuse"
-# VPN client focusing on security
-cask "protonvpn"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Run Apple apps on incompatible OS versions
@@ -183,6 +183,7 @@ cask "ua-connect"
 cask "vscodium"
 # Install and switch between multiple versions of Xcode
 cask "xcodes-app"
+mas "Amphetamine", id: 937984704
 mas "Logic Pro", id: 634148309
 mas "Tailscale", id: 1475387142
 vscode "aaron-bond.better-comments"
